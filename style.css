@@ -1,0 +1,159 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Header section styling */
+
+.header{
+    padding: 80px 0px;
+    background:
+    linear-gradient(170deg ,#682381 70%,#2e1e4d 30%);
+}
+
+.header .offer{
+    color: white;
+}
+
+
+.header .offer .offer-table{
+    border-style: dashed;
+    border-width: 2px;
+    width: 50%;
+    padding-left:30px;
+    margin: 50px 0;
+    padding-bottom: 25px;
+}
+
+.header .offer .offer-table span{
+    background-color: white;
+    color: #da2128;
+    position: relative;
+    width: 10vw;
+    bottom: 10px;
+    font-weight: 600;
+    padding: 5px 20px;
+}
+.header .offer .offer-table ul{
+    margin:0%;
+    padding-left: 2vw;
+}
+
+.header .offer li{
+    bottom: 5px;
+}
+
+
+.header .offer li::marker{
+    font-size: 4em ;
+}
+
+.header .form form{
+    background-color: white;
+    border-radius: 5px;
+    padding: 50px 30px;
+    width: 100%;
+
+}
+
+.header .form form .form-text{
+    position: relative;
+    top: 1.3vh;
+    left: 1vw;
+    background-color: white;
+    padding: 0 2px;
+}
+
+.header .form form input, select{
+    width: 100%;
+    border-left: none;
+    padding-left: 10px;
+    height: 7vh;
+    border-width: 0.1em;
+    margin-bottom: 8%;
+}
+
+.header .form form input:focus, select:focus{
+    outline: none;
+}
+
+.header .form form button{
+    width: 100%;
+    background-color: #da2128;
+    margin: 7vh 0;
+    height: 7vh;
+    color: white;
+    border-color: transparent;
+}
+
+/* Hero Section Styling */
+
+.hero{
+    padding: 70px 0px;
+}
+
+.hero .poster img{
+    width: 100%;
+    max-height: 550px;
+}
+
+/* Lower Section Styling */
+
+.lower{
+    background-color: #f4f7fd ;
+    border-radius: 3px;
+    padding: 30px ;
+}
+
+.lower .features{
+    margin-top: 30px;
+}
+
+.lower span{
+    padding: 25px;
+    /* border-radius: 40%; */
+    border-radius:100px;
+    margin-right: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgba(97, 95, 95, 0.307);
+}
+.lower .left, .lower .right{
+    margin-bottom: 100px;
+}
+
+/* Text styling */
+
+.head1{
+    font-size:x-large ;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.head2{
+    font-size: large;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.head3{
+    font-size: large;
+    font-weight: 700;
+}
+
+.head4{
+    font-size: medium;
+    font-weight: 700;
+}
+.head4 span{
+    font-size: xx-large;
+}
+
+.para1{
+    font-size: medium;
+    line-height: 2.0;
+    font-weight: 500;
+}
+
+.para2{
+    font-size:small;
+    line-height: 2.0;
+}
